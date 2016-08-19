@@ -748,7 +748,7 @@ for s = 1, screen.count() do screen[s]:connect_signal("arrange",
     end)
 end
 -- }}}
-awful.util.spawn_with_shell("compton -b")
+awful.util.spawn_with_shell("compton -bcG")
 awful.util.spawn_with_shell("pnmixer")
 awful.util.spawn_with_shell("redshift")
 awful.util.spawn_with_shell("nm-applet")
